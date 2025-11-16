@@ -1,3 +1,4 @@
+# lib/migrations/versions/791279dd0760_create_table_students.py
 """create table students
 
 Revision ID: 791279dd0760
@@ -5,8 +6,8 @@ Revises: 6b9cb35ba46e
 Create Date: 2022-12-20 10:05:32.829662
 
 """
-from alembic import op
-import sqlalchemy as sa
+from alembic import op # type: ignore
+import sqlalchemy as sa # type: ignore
 
 
 # revision identifiers, used by Alembic.
